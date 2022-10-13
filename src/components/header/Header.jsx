@@ -1,7 +1,7 @@
 import React from "react";
-import "./header.css"
+import "./header.css";
 import Headbtn from "./Headbtn";
-import image from "../../assets/myImage.jpeg";
+import image from "../../assets/myImage.JPG";
 import HeaderContacts from "./HeaderContacts";
 
 const Header = () => {
@@ -12,15 +12,11 @@ const Header = () => {
         <h1>Rahwa Ghebremichael</h1>
         <h5 className="qualification">Fullstack Developer</h5>
         <Headbtn />
-        <HeaderContacts/>
+        <HeaderContacts />
         <div className="image">
-          <img
-            style={{ width: "200px", height: "200px", borderRadius: "50%", marginTop:"3rem" }}
-            src={image}
-            alt="me"
-          />
+          <img src={image} alt="me" />
         </div>
-        <a href="#contact">Conta</a>
+        <a href="#contact" className="contact">Conta</a>
       </div>
     </header>
   );

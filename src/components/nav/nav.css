@@ -1,0 +1,41 @@
+nav {
+  display: flex;
+  position: fixed;
+  background: rgba(70, 70, 72, 0.3);
+  justify-content: space-between;
+  width: max-content;
+  gap: 2rem;
+  padding: 1.5rem 2.5rem;
+  left: 23rem;
+  top: 38rem;
+  border-radius: 1rem;
+}
+nav a{
+    background: transparent;
+    padding: 1rem 2rem;
+    font-size: 1.3rem;
+}
+nav a:hover {
+    background: rgba(0, 0, 0, 0.3);
+}
+
+@media screen and (max-width: 1024px) {
+    nav{
+       padding: 1rem; 
+       left: 10rem;
+    }
+    nav a{
+    
+    padding: 1rem 1.5rem;
+}
+}
+@media screen and (max-width: 600px) {
+ nav{
+       padding: 0.3rem; 
+       left: 5rem;
+    }
+    nav a{
+   
+    padding: 0.5rem;
+}
+}
