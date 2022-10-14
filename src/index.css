@@ -65,7 +65,7 @@ a:hover {
 .btn {
   width: max-content;
   display: inline-block;
-  padding: 0.68rem 1rem;
+  padding: 0.8rem 1.2rem;
   color: var(--color-primary);
   border-radius: 0.3rem;
   cursor: pointer;
