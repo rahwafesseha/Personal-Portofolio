@@ -19,6 +19,7 @@ const App = () => {
       <Services/>
       <Contact />
       <Footer />
+      <map/>
     </>
   );
 }
