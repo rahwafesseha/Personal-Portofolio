@@ -7,6 +7,7 @@ import Nav from "./components/nav/Nav";
 import Contact from "./components/contact/Contact";
 import Footer from "./components/footer/Footer";
 import Services from './components/services/Services';
+import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 
 const App = () => {
   return (
