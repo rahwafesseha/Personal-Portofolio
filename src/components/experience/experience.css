@@ -2,7 +2,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 2rem;
-  width:60%;
+  /* width:60%; */
 }
 .experience_container > div {
   background: rgb(85, 78, 109);
@@ -10,4 +10,9 @@
   padding: 2rem 4rem;
   border-radius: 3rem;
   
+}
+@media screen and (max-width:600px){
+   .experience_container {
+    grid-template-columns: 1fr;
+  }
 }
