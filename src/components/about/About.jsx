@@ -1,4 +1,5 @@
 import React from 'react'
+// import AnimatedLetters from "../AnimatedLetters";
 import "./about.css"
 
 

@@ -4,7 +4,7 @@ import emailjs from "@emailjs/browser";
 import { useRef } from "react";
 
 const Contact = () => {
-  const [formStatus, setFormStatus] = React.useState("Send");
+  // const [formStatus, setFormStatus] = useState("Send");
 
   // const onSubmit = (e) => {
   //   e.preventDefault();
@@ -38,54 +38,63 @@ const Contact = () => {
         }
       );
   };
+
   return (
-    <div className="contact_container" id="contact">
-      <div>
-        Contact Form
-        <form ref={form} onSubmit={sendEmail}>
-          <div className="row">
-            <div className="col-6">
-              <label className="form-label" htmlFor="name" name="name">
-                Name
-              </label>
-              <input
-                className="form-control"
-                type="text"
-                name="email"
-                id="name"
-                required
-              />
-            </div>
-            <div className="col-6">
-              <label className="form-label" htmlFor="email">
-                Email
-              </label>
-              <input
-                className="form-control"
-                type="email"
-                id="email"
-                name="email"
-                required
-              />
-            </div>
+    <>
+      <div className="container contact-page">
+        <section className="text-zone">
+          <h2> Contact Me </h2>
+          <p>
+            I am interested in freelance opportunities - especially on ambitious
+            or large projects. However, if you have any other requests or
+            questions, don't hesitate to contact me using below form either.
+          </p>
+          <div className="contact-form">
+            <form ref={form} onSubmit={sendEmail}>
+              <ul>
+                <div className="cols">
+                  <li className="half">
+                    <input
+                      placeholder="Name"
+                      type="text"
+                      name="name"
+                      required
+                    />
+                  </li>
+                  <li className="half">
+                    <input
+                      placeholder="Email"
+                      type="email"
+                      name="email"
+                      required
+                    />
+                  </li>
+                </div>
+
+                <li>
+                  <input
+                    placeholder="Subject"
+                    type="text"
+                    name="subject"
+                    required
+                  />
+                </li>
+                <li>
+                  <textarea
+                    placeholder="Message"
+                    name="message"
+                    required
+                  ></textarea>
+                </li>
+                <li>
+                  <input type="submit" className="flat-button" value="SEND" />
+                </li>
+              </ul>
+            </form>
           </div>
-          <div className="col-12">
-            <label className="form-label" htmlFor="message">
-              Message
-            </label>
-            <textarea
-              className="form-control"
-              id="message"
-              name="message"
-              required
-            />
-          </div>
-          <button className="btn btn-success col-2" type="submit">
-            {formStatus}
-          </button>
-        </form>
+        </section>
       </div>
-    </div>
+    </>
   );
 };
 

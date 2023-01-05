@@ -1,8 +1,10 @@
 p {
-  margin: 2rem;
   font-size: 22px;
   line-height: 1.8rem;
+  padding:10%;
+  padding-top: 1%;
 }
 .about_me {
-  margin-left: 45%;
+  /* margin-left: 45%; */
+  text-align: center;
 }
