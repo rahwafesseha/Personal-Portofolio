@@ -42,7 +42,7 @@ const Contact = () => {
   return (
     <>
       <div className="container contact-page">
-        <section className="text-zone">
+        <section className="text-zone" id="contact">
           <h2> Contact Me </h2>
           <p>
             I am interested in freelance opportunities - especially on ambitious
@@ -50,8 +50,8 @@ const Contact = () => {
             questions, don't hesitate to contact me using below form either.
           </p>
           <div className="contact-form">
-            <form ref={form} onSubmit={sendEmail}>
-              <ul>
+            <form  ref={form} onSubmit={sendEmail}>
+              <ul >
                 <div className="cols">
                   <li className="half">
                     <input

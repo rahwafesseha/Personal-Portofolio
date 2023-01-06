@@ -9,7 +9,7 @@ import { FaNodeJs } from "react-icons/fa";
 
 const Experience = () => {
   return (
-    <section className="experience">
+    <section className="experience" id="experience">
       <h5>The Skills I have</h5>
       <h2>My Experience</h2>
       <div className="container experience_container">

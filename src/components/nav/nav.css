@@ -1,13 +1,16 @@
 nav {
   display: flex;
-  position: fixed;
+  /* position: fixed; */
+  text-align: center;
   background: rgba(70, 70, 72, 0.3);
   justify-content: space-between;
   width: max-content;
   gap: 2rem;
   padding: 1.5rem 2.5rem;
-  left: 23rem;
-  top: 38rem;
+  margin-left:auto;
+  margin-right: auto;
+  /* left: 23rem; */
+  /* top: 38rem; */
   border-radius: 1rem;
 }
 nav a{
