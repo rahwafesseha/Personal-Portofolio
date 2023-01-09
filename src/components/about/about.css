@@ -1,10 +1,11 @@
 p {
-  font-size: 22px;
+  font-size: 20px;
   line-height: 1.8rem;
-  padding:10%;
+  padding: 8%;
   padding-top: 1%;
 }
-.about_me {
-
+.about_me a {
+  text-decoration: none;
   text-align: center;
+  cursor: pointer;
 }

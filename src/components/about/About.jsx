@@ -1,7 +1,6 @@
-import React from 'react'
+import React from "react";
 // import AnimatedLetters from "../AnimatedLetters";
-import "./about.css"
-
+import "./about.css";
 
 const About = () => {
   return (
@@ -10,7 +9,6 @@ const About = () => {
       <h2>About Me</h2>
       <div>
         <article>
-          
           <p>
             I am a passionate and self-driven Full Stack Developer. After
             earning a degree in marine engineering and working as a Maths tutor,
@@ -21,13 +19,15 @@ const About = () => {
             JavaScript, react, node, and PostgreSQL both independently and in
             teams. I appreciate using technology to find solutions to problems
             in the real world, and I like CISCO and the hardware and software
-            that form the foundation of network communication.
+            that form the foundation of network communication.<br/>
+            <a href="#contact" className="about_me">
+              Reach Me...
+            </a>
           </p>
         </article>
-        <a href="#contact" className="btn about_me"> Reach Me...</a>
       </div>
     </section>
   );
-}
+};
 
-export default About
+export default About;

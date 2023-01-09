@@ -31,13 +31,14 @@ li {
 
 input[type="text"],
 input[type="email"],
-textarea {
+textarea  {
   width: 100%;
   border: 0;
-  background-color: #1c5574;
+  background-color: #131a1e;
   height: 50px;
   font-size: 16px;
-  color: #fff;
+  color: white;
+
   padding: 0 20px;
   box-sizing: border-box;
   text-align: left !important;
@@ -46,8 +47,6 @@ textarea {
 
 textarea {
   width: 100%;
-  border: 0;
-  background: #115173;
   height: 50px;
   font-size: 16px;
   color: #fff;
@@ -58,7 +57,6 @@ textarea {
 
 .flat-button {
   color: #ffd700;
-  background-color: #115173;
   font-size: 11px;
   letter-spacing: 3px;
   text-decoration: none;

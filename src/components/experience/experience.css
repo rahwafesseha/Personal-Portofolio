@@ -2,12 +2,15 @@
   width: 100%;
   height: auto;
   padding: 5%;
+  margin-top: 0.01%;
+  
 }
 .experience_container {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 2rem;
   height: auto !important;
+  
   
 }
 
@@ -18,7 +21,7 @@
   padding: 30px;
 }
 .box h3{
-font-size: 35git ppushpx;
+font-size: 30px;
 }
 
 .backend > li {

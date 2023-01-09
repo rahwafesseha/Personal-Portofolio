@@ -7,15 +7,20 @@ header {
   width: var(--container-width-bg);
   text-align: center;
   height: 100%;
-  position: relative;
+  /* position: relative; */
 }
 /* styling header buttons */
 
 .headbtn {
-  margin-top: 2rem;
+
   display: flex;
   gap: 1rem;
   justify-content: center;
+  color:white;
+  cursor: pointer;
+}
+.headbtn a{
+  color: white;
 }
 /* styling header contacts */
 
@@ -24,9 +29,9 @@ header {
   flex-direction: column;
   align-items: center;
   position: absolute;
-  top: 18rem;
+  top: 55%;
   gap: 1.5rem;
-  left: 6rem;
+  left: 20%;
   font-size: 1.6rem;
 }
 /* styling Image */
@@ -35,8 +40,9 @@ header {
   width: 15rem;
   height: 15rem;
   margin-top: 3.5rem;
+  margin-bottom: 1.5rem;
   border-radius: 50%;
-  position: absolute;
+  /* position: absolute; */
   
 }
 

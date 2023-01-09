@@ -11,12 +11,13 @@ const Header = () => {
         <h5>Hello I am</h5>
         <h1>Rahwa Ghebremichael</h1>
         <h5 className="qualification">Fullstack Developer</h5>
-        <Headbtn />
+
         <HeaderContacts />
         <div className="image">
           <img src={image} alt="me" />
         </div>
-        <a href="#contact" className="contact">Contact Me</a>
+        <Headbtn />
+        {/* <a href="#contact" className="contact">Contact Me</a> */}
       </div>
     </header>
   );
